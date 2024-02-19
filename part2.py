@@ -29,3 +29,5 @@ The number -17 is odd.
 Please enter another number, 0 to stop: 0
 You entered 0. Goodbye
 """
+
+#yay everything is local going to get food and come back slightly later. exam prep after this yay
