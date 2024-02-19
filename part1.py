@@ -3,7 +3,6 @@
 # This program computes factorial for a value (N) entered by the user.
 # STEP 1: Prompt the user for N and read it in and convert it into an integer\
 var_fact = float(input("Throw me an integer...we're going to add bang and compute the resulting factorial"))
-var_arr = []
 var_sum = 1
 # STEP 2: Initialize factorial to a default value before multiplying
 
