@@ -6,13 +6,28 @@ Created on Mon Feb 19 14:37:56 2024
 @author: stephenson
 """
 
+#we are going to define some funcs...yay! sadly they are not built in
+
 # Lab6 - Part II
 #Matthew Stephenson
 # This program reads in numbers until the user enters a 0. For each number
 # entered, prints whether it is even or odd.
+
+def is_even(number):
+    return number % 2 == 0
+#we are going to define some funcs...yay! sadly they are not built in. this is for even
+def is_odd(number):
+    return number % 2 != 0
+#the function definition above sadly isnt inluded in the math lib. so we made it here
+
 number = int(input("Enter a number. I will tell you if it is odd or even: "))
-while : # STEP 1: condition that allows the loop to continue
+while number != 0: # STEP 1: condition that allows the loop to continue
 # STEP 2: print out whether the number is odd or even
+    if is_even(number):
+        print("the number is even")
+
+    elif is_odd(number):
+        print("the number is odd")
 # STEP 3: prompt the user for the next number
 print("\nYou entered 0. Goodbye")
 
