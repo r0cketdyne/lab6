@@ -10,6 +10,8 @@
 
 while N > : # STEP 3a: what is the condition to keep going?
 
-# STEP 3b: multiply N x factorial and save it back into factorial variable
-# STEP 3c: decrement N by 1
+    # STEP 3b: multiply N x factorial and save it back into factorial variable
+
+    # STEP 3c: decrement N by 1
+
 # Step 4: Print out The resulting factorial value
