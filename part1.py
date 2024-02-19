@@ -15,3 +15,4 @@ while var_fact > 0 : # STEP 3a: what is the condition to keep going?
     # STEP 3c: decrement N by 1
 
 # Step 4: Print out The resulting factorial value
+#this is kind of mathy ngl
